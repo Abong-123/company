@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PT Borneo Heavy Machinery – Solusi Alat Berat & Kendaraan Tambang</title>
+  <meta name="description" content="Penyedia armada alat berat dan kendaraan tambang, perawatan, dan suku cadang untuk operasi pertambangan." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="dist/output.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header id="nav" class="fixed inset-x-0 top-0 z-50 transition duration-300">
+    <div class="wrap flex items-center justify-between py-5">
+      <a href="#top" class="font-serif text-xl font-semibold tracking-wide text-white">BORNEO <span class="text-gold-500">HEAVY</span></a>
+      <nav class="hidden items-center gap-9 text-sm uppercase tracking-widest md:flex" id="menu"></nav>
+      <a href="#kontak" class="btn-gold hidden !px-5 !py-2.5 md:inline-flex">Hubungi Kami</a>
+      <button id="burger" class="text-3xl text-white md:hidden" aria-label="Menu">☰</button>
+    </div>
+    <nav id="mmenu" class="hidden flex-col gap-1 border-t border-white/10 bg-ink-900 px-5 pb-5 text-sm uppercase tracking-widest md:hidden"></nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="top" class="slot relative flex min-h-screen items-center">
+    <img src="img/hero.jpg" alt="Kendaraan tambang" class="absolute inset-0 h-full w-full object-cover" onerror="this.remove()" />
+    <div class="absolute inset-0 bg-gradient-to-r from-ink-900 via-ink-900/80 to-ink-900/30"></div>
+    <div class="wrap relative pt-24">
+      <p class="eyebrow">Sejak 1998 · Kalimantan Timur</p>
+      <h1 class="max-w-3xl font-serif text-4xl font-semibold leading-[1.1] text-white md:text-7xl">Tenaga yang Menggerakkan <span class="text-gold-500">Tambang Indonesia.</span></h1>
+      <p class="mt-6 max-w-xl text-lg text-slate-300">Penyedia armada alat berat, perawatan, dan suku cadang untuk operasi pertambangan yang menuntut produktivitas, keselamatan, dan ketepatan.</p>
+      <div class="mt-10 flex flex-wrap gap-4">
+        <a href="#armada" class="btn-gold">Lihat Armada</a>
+        <a href="#kontak" class="btn-ghost">Minta Penawaran</a>
+      </div>
+    </div>
+    <a href="#tentang" class="absolute bottom-8 left-1/2 hidden -translate-x-1/2 text-xs uppercase tracking-[0.3em] text-slate-400 md:block">Gulir ↓</a>
+  </section>
+
+  <!-- STATS -->
+  <section class="border-y border-white/10 bg-ink-800">
+    <div id="stats" class="wrap grid grid-cols-2 gap-y-10 py-14 md:grid-cols-4"></div>
+  </section>
+
+  <!-- TENTANG -->
+  <section id="tentang" class="py-24 md:py-32">
+    <div class="wrap grid items-center gap-14 lg:grid-cols-2">
+      <div class="reveal">
+        <p class="eyebrow">Tentang Perusahaan</p>
+        <h2 class="title">Mitra operasional yang bekerja sebagaimana tambang bekerja: tanpa henti.</h2>
+        <p class="mt-6 leading-relaxed">PT Borneo Heavy Machinery adalah penyedia alat berat dan kendaraan tambang dengan pengalaman lebih dari dua dekade melayani pertambangan batubara, nikel, dan mineral. Kami menggabungkan armada andal, tim teknisi bersertifikat, dan rantai pasok suku cadang agar unit Anda tetap beroperasi.</p>
+        <div id="values" class="mt-10 grid gap-6 sm:grid-cols-2"></div>
+      </div>
+      <div class="reveal slot aspect-[4/5] lg:aspect-auto lg:h-[560px]">
+        <img src="img/tentang.jpg" alt="Operasi tambang" class="absolute inset-0 h-full w-full object-cover" loading="lazy" onerror="this.remove()" />
+        <div class="absolute bottom-0 left-0 bg-gold-500 px-6 py-4 text-ink-900"><p class="font-serif text-3xl font-bold">25+</p><p class="text-xs font-semibold uppercase tracking-widest">Tahun Pengalaman</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARMADA -->
+  <section id="armada" class="bg-ink-800 py-24 md:py-32">
+    <div class="wrap">
+      <div class="reveal max-w-2xl"><p class="eyebrow">Armada</p><h2 class="title">Unit berkapasitas tinggi untuk medan terberat.</h2></div>
+      <div id="armadaList" class="mt-14 grid gap-8 md:grid-cols-2"></div>
+    </div>
+  </section>
+
+  <!-- LAYANAN -->
+  <section id="layanan" class="py-24 md:py-32">
+    <div class="wrap">
+      <div class="reveal max-w-2xl"><p class="eyebrow">Layanan</p><h2 class="title">Solusi menyeluruh dari pengadaan hingga purna jual.</h2></div>
+      <div id="layananList" class="mt-14 grid gap-px bg-white/10 md:grid-cols-2 lg:grid-cols-4"></div>
+    </div>
+  </section>
+
+  <!-- PROYEK -->
+  <section id="proyek" class="bg-ink-800 py-24 md:py-32">
+    <div class="wrap">
+      <div class="reveal max-w-2xl"><p class="eyebrow">Proyek</p><h2 class="title">Dipercaya operator tambang di seluruh nusantara.</h2></div>
+      <div id="proyekList" class="mt-14 grid gap-6 md:grid-cols-3"></div>
+    </div>
+  </section>
+
+  <!-- K3 + SERTIFIKASI -->
+  <section class="py-24">
+    <div class="wrap grid items-center gap-10 lg:grid-cols-2">
+      <div class="reveal"><p class="eyebrow">Keselamatan & Mutu</p><h2 class="title">Keselamatan bukan target. Ini standar mutlak.</h2>
+        <p class="mt-6 leading-relaxed">Setiap unit melewati inspeksi berlapis sebelum dikirim, dan setiap teknisi bekerja di bawah prosedur K3 yang ketat.</p></div>
+      <div id="sertif" class="reveal grid grid-cols-2 gap-4"></div>
+    </div>
+  </section>
+
+  <!-- CTA + KONTAK -->
+  <section id="kontak" class="border-t border-white/10 bg-ink-800 py-24 md:py-32">
+    <div class="wrap grid gap-14 lg:grid-cols-5">
+      <div class="reveal lg:col-span-2">
+        <p class="eyebrow">Kontak</p>
+        <h2 class="title">Diskusikan kebutuhan operasi Anda.</h2>
+        <dl class="mt-10 space-y-6 text-sm">
+          <div><dt class="text-xs uppercase tracking-widest text-gold-500">Kantor Pusat</dt><dd class="mt-1">Jl. Jenderal Sudirman No. 88, Balikpapan, Kalimantan Timur</dd></div>
+          <div><dt class="text-xs uppercase tracking-widest text-gold-500">Telepon</dt><dd class="mt-1">+62 542 000 000</dd></div>
+          <div><dt class="text-xs uppercase tracking-widest text-gold-500">Email</dt><dd class="mt-1">sales@borneoheavy.example</dd></div>
+        </dl>
+      </div>
+      <form id="form" class="reveal grid gap-5 lg:col-span-3 sm:grid-cols-2">
+        <input name="nama" required placeholder="Nama lengkap" class="border border-white/15 bg-ink-900 px-4 py-3.5 text-white placeholder-slate-500 outline-none focus:border-gold-500" />
+        <input name="perusahaan" placeholder="Perusahaan" class="border border-white/15 bg-ink-900 px-4 py-3.5 text-white placeholder-slate-500 outline-none focus:border-gold-500" />
+        <input name="email" type="email" required placeholder="Email" class="border border-white/15 bg-ink-900 px-4 py-3.5 text-white placeholder-slate-500 outline-none focus:border-gold-500" />
+        <select name="minat" class="border border-white/15 bg-ink-900 px-4 py-3.5 text-slate-300 outline-none focus:border-gold-500"></select>
+        <textarea name="pesan" rows="5" required placeholder="Jelaskan kebutuhan Anda" class="border border-white/15 bg-ink-900 px-4 py-3.5 text-white placeholder-slate-500 outline-none focus:border-gold-500 sm:col-span-2"></textarea>
+        <button class="btn-gold sm:col-span-2">Kirim Permintaan</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="border-t border-white/10 bg-ink-900 py-10">
+    <div class="wrap flex flex-col items-center justify-between gap-4 text-xs text-slate-500 md:flex-row">
+      <p class="font-serif text-base text-white">BORNEO <span class="text-gold-500">HEAVY</span></p>
+      <p>© <span id="yr"></span> PT Borneo Heavy Machinery.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
